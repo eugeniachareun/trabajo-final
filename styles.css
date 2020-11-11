@@ -4,10 +4,10 @@ nav {
 
 main {
   width: 100%;
+  height:auto;
 }
 
 main .inicio {
-  height: auto;
   min-height: 450px;
   background-color: #00a5cf;
   align-content: center;
@@ -40,13 +40,13 @@ main .inicio-icon img {
 }
 
 main .about {
-  height: auto;
   column-gap: 10px;
   background-color: #9fffcb;
   font-family: "DM Sans", sans-serif;
   font-size: 25px;
   color: black;
   padding-left: 50px;
+  padding-bottom:15px;
 }
 
 .about span {
@@ -68,11 +68,10 @@ main .about {
 }
 
 footer {
-  width: 100%;
-  height: auto;
   padding: 20px 0;
   background-color: #25a18e;
   font-family: "DM Sans", sans-serif;
+  
 }
 
 footer div h3 {
@@ -85,6 +84,7 @@ footer div h3 {
 footer .datos {
   display: flex;
   justify-content: center;
+  padding-left: 10px;
 }
 
 footer img {
@@ -95,5 +95,4 @@ footer img {
 footer .datos a {
   text-decoration: none;
   color: white;
-  margin-right: 15px;
 }
