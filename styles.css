@@ -17,29 +17,26 @@ main .inicio-title {
   text-align: center;
   font-family: "Caveat", cursive;
   color: black;
-
 }
 
 main .inicio-title h1 {
   font-size: 5rem;
-
   font-weight: bold;
 }
 
 main .inicio-title h2 {
   font-size: 2.5rem;
-  
 }
 
 main .inicio-icon {
-  
   display: inline-block;
 }
 
 main .inicio-icon img {
-  display: inline-block;
+  display:block;
   width: 200px;
   height: 200px;
+  margin: 0 auto;
 }
 
 main .about {
